@@ -18,7 +18,7 @@ export default function Navbar() {
     ]
 
     return (
-        <nav className="fixed w-full z-50 bg-slate-900/85 dark:bg-slate-950/85 backdrop-blur-xl shadow-2xl border-b border-white/10 dark:border-slate-800 transition-all duration-300">
+        <nav className="fixed w-full z-50 bg-green-600/85 dark:bg-green-900/85 backdrop-blur-xl shadow-2xl border-b border-white/10 dark:border-green-800 transition-all duration-300">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-20">
                     <Link to="/" className="flex items-center gap-2">
@@ -62,7 +62,7 @@ export default function Navbar() {
                         initial={{ opacity: 0, height: 0 }}
                         animate={{ opacity: 1, height: "auto" }}
                         exit={{ opacity: 0, height: 0 }}
-                        className="md:hidden bg-slate-900/95 dark:bg-slate-950/95 backdrop-blur-xl border-t border-white/10 dark:border-slate-800"
+                        className="md:hidden bg-green-600/95 dark:bg-green-900/95 backdrop-blur-xl border-t border-white/10 dark:border-green-800"
                     >
                         <div className="px-4 pt-2 pb-6 space-y-2">
                             {navLinks.map((link) => (
